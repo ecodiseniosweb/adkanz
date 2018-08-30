@@ -1,0 +1,15 @@
+	<footer>
+
+		<div class="group-footer"></div>
+    	
+		<p>Derechos Reservados ® 2017</p>
+
+    </footer>
+
+	</div>
+
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	
+</body>
+</html>

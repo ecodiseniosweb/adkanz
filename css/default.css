@@ -1,0 +1,410 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #404040;
+  font-family: "Patua One", Arial, Sans-serif;
+  font-weight: normal; }
+
+.container {
+  margin: auto;
+  width: 90%;
+  max-width: 1000px; }
+
+.container header {
+  width: 100%;
+  background: #000; }
+  .container header .image {
+    width: 30%;
+    float: left;
+    padding: 10px;
+    margin: 20px; }
+    .container header .image img {
+      width: 100%;
+      vertical-align: top; }
+  .container header .title {
+    width: 70%;
+    float: left;
+    padding: 10px;
+    margin-top: 50px; }
+    .container header .title h1 {
+      text-align: center;
+      color: #fff;
+      font-size: 1.875em;
+      letter-spacing: 10px;
+      text-shadow: 3px 3px 10px #ccc; }
+  .container header .nav {
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .container header .nav .menu {
+      width: 70%;
+      overflow: hidden;
+      list-style: none;
+      align-content: space-between;
+      margin-left: 50px; }
+      .container header .nav .menu li {
+        overflow: hidden;
+        float: left; }
+        .container header .nav .menu li a {
+          text-decoration: none;
+          display: inline-block;
+          padding: 10px 15px;
+          background: #be0101;
+          color: #fff;
+          border-radius: 5px;
+          margin-right: 10px;
+          font-size: 0.875em;
+          opacity: 0.7; }
+          .container header .nav .menu li a:hover {
+            opacity: 1; }
+      .container header .nav .menu .sub-menu {
+        display: none; }
+    .container header .nav .intranet {
+      display: none;
+      width: 20%;
+      overflow: hidden;
+      list-style: none;
+      justify-content: center;
+      position: relative;
+      bottom: 25px;
+      left: 100px; }
+      .container header .nav .intranet li {
+        overflow: hidden; }
+        .container header .nav .intranet li a {
+          text-decoration: none;
+          display: inline-block;
+          padding: 15px;
+          background: #be0101;
+          color: #fff;
+          border-radius: 5px;
+          margin-left: 10px;
+          font-size: 1.875em;
+          opacity: 0.7; }
+          .container header .nav .intranet li a:hover {
+            opacity: 1; }
+    .container header .nav .login {
+      width: 15%;
+      background: #be0101;
+      display: none;
+      padding: 30px;
+      position: absolute;
+      top: 40.2%;
+      left: 81.2%;
+      overflow: hidden;
+      border-radius: 5px;
+      display: visible; }
+      .container header .nav .login .formulario {
+        width: 100%;
+        position: relative; }
+        .container header .nav .login .formulario input {
+          width: 100%;
+          height: 35px;
+          margin-bottom: 5px;
+          font-size: 1.125em; }
+          .container header .nav .login .formulario input:focus {
+            border: 2px solid rgba(0, 255, 0, 0.8); }
+          .container header .nav .login .formulario input[type="submit"] {
+            background: #fff;
+            color: #be0101;
+            font-size: 1.25em;
+            cursor: pointer; }
+          .container header .nav .login .formulario input::placeholder {
+            color: #be0101; }
+.container .ad {
+  display: none;
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
+  max-height: 550px;
+  padding: 80px 30px 0 30px;
+  background: rgba(255, 0, 0, 0.8);
+  margin: auto;
+  position: absolute;
+  position: fixed;
+  top: 8%;
+  left: 30%;
+  z-index: 100;
+  transition: all, 2s, ease 1s;
+  animation: ad 2s linear;
+  overflow: hidden; }
+  .container .ad p {
+    color: #fff;
+    font-size: 1.9em;
+    text-align: center; }
+    .container .ad p .close {
+      position: relative;
+      bottom: 70px;
+      left: 25px;
+      color: #fff; }
+@keyframes ad {
+  0% {
+    width: 0%;
+    height: 0%;
+    display: none; }
+  100% {
+    width: 100%;
+    height: 100%;
+    display: block; }
+  100% {
+    width: 100%;
+    height: 100%; }
+  0% {
+    width: 0%;
+    height: 0; } }
+.main {
+  width: 100%;
+  margin-bottom: 60px; }
+  .main h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: normal;
+    padding: 60px 0; }
+  .main article h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 1.5625em;
+    font-weight: normal;
+    padding: 30px 0;
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+    font-family: Domie, Arial, Sans-serif; }
+  .main article p {
+    background: rgba(190, 1, 1, 0.3);
+    padding: 20px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 1.25em; }
+  .main article ul {
+    width: 70%;
+    background: rgba(190, 1, 1, 0.3);
+    padding: 20px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 1.25em;
+    list-style: none;
+    text-align: left;
+    float: left;
+    margin-right: 20px; }
+  .main .center {
+    text-align: center;
+    padding: 30px; }
+    .main .center a {
+      color: #fff;
+      text-decoration: none; }
+
+.main article .image {
+  background: rgba(190, 1, 1, 0.3);
+  width: 30%;
+  float: left;
+  padding: 30px; }
+  .main article .image img {
+    width: 100%;
+    float: left; }
+
+aside {
+  position: absolute;
+  top: 35%;
+  left: 10px;
+  position: fixed; }
+  aside .redes-sociales {
+    font-size: 25px;
+    text-align: center; }
+    aside .redes-sociales ul li {
+      list-style: none; }
+      aside .redes-sociales ul li a {
+        display: inline-block;
+        padding: 10px 15px;
+        color: #fff;
+        margin-bottom: 10px; }
+      aside .redes-sociales ul li .facebook {
+        background: #3b5998;
+        opacity: 0.7; }
+        aside .redes-sociales ul li .facebook:hover {
+          opacity: 1; }
+      aside .redes-sociales ul li .twitter {
+        display: none;
+        background: #1da1f2;
+        padding: 10px;
+        opacity: 0.7; }
+        aside .redes-sociales ul li .twitter:hover {
+          opacity: 1; }
+      aside .redes-sociales ul li .youtube {
+        background: #ff0000;
+        padding: 10px;
+        opacity: 0.7; }
+        aside .redes-sociales ul li .youtube:hover {
+          opacity: 1; }
+      aside .redes-sociales ul li .whatsapp {
+        background: #25d366;
+        padding: 10px;
+        opacity: 0.7; }
+        aside .redes-sociales ul li .whatsapp:hover {
+          opacity: 1; }
+
+footer {
+  background: #000;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  footer p {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 15px;
+    padding: 15px 0 0 30px; }
+    footer p a {
+      color: #e44436;
+      text-decoration: none;
+      font-size: 20px;
+      text-align: right; }
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 98%; }
+    .container header {
+      width: 100%; }
+      .container header .image {
+        width: 30%;
+        padding: 15px;
+        margin: 15px; }
+        .container header .image img {
+          width: 100%; }
+      .container header .title {
+        width: 60%;
+        padding: 10px;
+        margin-top: 30px; }
+        .container header .title h1 {
+          font-size: 2.5em;
+          text-align: center; }
+      .container header .nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; }
+        .container header .nav .menu li {
+          padding: 5px; }
+          .container header .nav .menu li a {
+            font-size: 0.6875em;
+            margin-left: 2px; }
+        .container header .nav .intranet {
+          top: -2px;
+          left: 110px; }
+    .container .main {
+      margin: auto; }
+      .container .main article {
+        width: 100%;
+        text-align: center; }
+        .container .main article p {
+          text-align: justify; }
+    .container aside {
+      position: absolute;
+      position: fixed;
+      top: -10px;
+      left: 10px; }
+      .container aside .redes-sociales li {
+        padding: 5px;
+        margin-right: 5px;
+        float: left; }
+        .container aside .redes-sociales li a {
+          font-size: 1.125em; }
+    .container footer {
+      flex-direction: column;
+      height: auto; }
+      .container footer p {
+        width: 100%; } }
+@media screen and (max-width: 768px) {
+  .container header .title h1 {
+    font-size: 1.875em; }
+  .container header .nav .menu {
+    width: 100%; }
+  .container header .nav .intranet {
+    display: none; }
+  .container .ad {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 500px;
+    top: 18%;
+    left: 18%;
+    padding: 30px; }
+    .container .ad p {
+      font-size: 1.78em; }
+      .container .ad p .close {
+        bottom: 25px;
+        left: 20px; }
+  .container footer {
+    height: auto; } }
+@media screen and (max-width: 576px) {
+  .container header .image {
+    width: 100%; }
+  .container header .title {
+    width: 100%; }
+    .container header .title h1 {
+      font-size: 1.5625em; }
+  .container .ad {
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 400px;
+    top: 15%;
+    left: 15%;
+    padding: 30px; }
+    .container .ad p {
+      font-size: 1.385em; }
+      .container .ad p .close {
+        bottom: 25px;
+        left: 20px; }
+  .container .main article {
+    width: 100%; }
+    .container .main article ul {
+      width: 100%; }
+    .container .main article img {
+      width: 100%;
+      margin-bottom: 25px; }
+  .container footer {
+    height: auto; }
+    .container footer p {
+      display: block;
+      text-align: center;
+      padding: 0; } }
+@media screen and (max-width: 400px) {
+  .container {
+    width: 100%; }
+    .container header .image {
+      margin: 0; }
+    .container header .title h1 {
+      font-size: 1.05em; }
+    .container .ad {
+      width: 100%;
+      max-width: 300px;
+      height: 100%;
+      max-height: 300px;
+      top: 20%;
+      left: 3%;
+      padding: 30px; }
+      .container .ad p {
+        font-size: 1em; }
+        .container .ad p .close {
+          bottom: 25px;
+          left: 20px; }
+    .container .main .center h1 {
+      font-size: 1.2em; }
+    .container .main .center p {
+      font-size: 1em;
+      text-align: center; }
+    .container .main .center a {
+      font-size: 1em; }
+    .container footer {
+      width: 100%; }
+      .container footer p {
+        padding: 5px 15px;
+        font-size: 1em; } }
+
+/*# sourceMappingURL=default.css.map */

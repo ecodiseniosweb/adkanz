@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="robots" content="">
+
+	<link rel="icon" type="image/x-icon" href="img/icon/favicon.ico">
+
+	<!-- <link rel="stylesheet" href="../css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="../css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/form.css">
+	<link rel="stylesheet" href="../css/default.css">
+	
+
+
+	
+
+
+	<title>Adiestramiento Canino Profesional ADKANZ</title>
+</head>
+<body>
+
+	<header class="mheader row justify-content-center">
+	
+		<!-- Area del Header -->
+			
+			<div class="contenedor row">
+				<div class="logo col-xs-12 col-md-3">
+					<img src="../img/adkanzlogo.jpg" alt="Logo Adkanz" width="270px">
+				</div>
+
+				<div class="mt col-xs-12 col-md-8">
+					<h1>ADIESTRAMIENTO CANINO PROFESIONAL</h1>
+				</div>
+			
+
+				<div class="redes col-xs-12 col-md-1 align-self-end">
+
+					<div class="facebook row justify-content-center">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+					</div>
+
+					<div class="youtube row justify-content-center">
+						<a href="#"><i class="fa fa-youtube-play"></i></a>
+					</div>
+
+					<div class="login row justify-content-center">
+						<a href="#"><i class="fa fa-user"></i></a>
+					</div>
+				
+				</div>
+			</div>
+			
+	
+		
+		<nav class="col-xs-12 col-md-10 d-flex clear-fix justify-content-center">
+
+		<!-- Area de Navegacion -->
+			<?php include 'menu.php'; ?>
+
+		</nav>
+	</header>
+
+	<div class="container">
+
+	<!-- Termina el header -->

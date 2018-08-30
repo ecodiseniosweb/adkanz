@@ -1,0 +1,69 @@
+.wrap{
+	width: 98%;
+	max-width: 500px;
+	margin: auto;
+}
+form{
+	width: 100%;
+	margin: 20px 0;
+	padding: 20px;
+	background: rgba(255, 0, 0, .8);
+	overflow: hidden;
+	box-shadow: 0 0 3px #fff;
+	border-top: 4px solid #fb6767;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+	border: 1px solid #277777;
+	border-radius: 2px;
+	padding: 16px;
+	width: 100%;
+	display: block;
+	margin-bottom: 20px;
+	color: rgba(255, 0, 0, .8);
+}
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus,
+form textarea:focus {
+	border: 2px solid #fff;
+	padding: 15px;
+}
+form textarea{
+	max-width: 100%;
+	min-width: 100%;
+	max-height: 300px;
+	min-height: 150px;
+}
+.alert{
+	padding:  1em;
+	color: #fff;
+	border-radius: 2px;
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+.alert.error{
+	background: #f2dede;
+	border: 1px solid #c49a6a;
+	color: #a94442;
+}
+.alert.success{
+	background: #4caf50;
+}
+.btn,
+form input[type="submit"]{
+	padding: 15px;
+	background: rgba(67,67,67,.5);
+	color: #fff;
+	font-size: 1em;
+	border-radius: 2px;
+	border: none;
+	float: right;
+	cursor: pointer;
+}
+form input[type="submit"]:hover{
+	background: rgba(255,255,255,.8);
+	color: #ff0000;
+}

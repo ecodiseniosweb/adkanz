@@ -1,0 +1,35 @@
+<?php 
+
+	require '../visual/include/header.php';
+
+ ?>
+
+<article class="row d-flex justify-content-center">
+	
+	<section class="photo-servicios col-xs-12 col-md-12  ">
+		
+		<img src="../img/servicios.jpg" alt="Servicios Mariachi Jalisco Show" width="500px">
+
+	</section>
+
+	<section class="col-xs-12 col-md-8 col-lg-8 ">
+
+		<div class="group-article ">
+			
+			<p>Para todo tipo de evento ya sea grande o pequeño tenemos una opción para ti.</p>
+
+			<p>Nuestro compromiso es seguir compartiendo con ustedes nuestra música Mexicana con dedicación, esfuerzo, gusto y amor.</p>
+
+			<p>Pues para ti tu evento es importante y nuestro trabajo marcara una gran diferencia para lograr que su evento sea un éxito.</p>
+
+		</div>
+
+	</section>
+
+</article>
+
+<?php 
+
+	 require '../visual/include/footer.php';
+
+?>
